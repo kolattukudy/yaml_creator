@@ -2,6 +2,7 @@
 given the files in an directory, it parses the directory find the checksum for each file and write it into a yaml structure. The final out put 
 will be in the format.
 
+```
 example
 - auth:
       type: s3
@@ -22,3 +23,4 @@ example
     validation:
       type: sha256
       value: 79f8e5e2f0d82afe017afbf6b742ce66751ac961e1d068564e052cb7d163ea06
+````
